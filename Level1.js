@@ -51,10 +51,14 @@ else{
 }
 
 
-let age = prompt("Enter Your age");
-if (age >= 18){
-    console.log("You are able to Vote");
-}
-else{
-    console.log("you are not able to vote");
+// let age = prompt("Enter Your age");
+// if (age >= 18){
+//     console.log("You are able to Vote");
+// }
+// else{
+//     console.log("you are not able to vote");
+// }
+let tb = 7;
+for(let i = 1; i <= 10; i++){
+    console.log(tb * i);
 }
